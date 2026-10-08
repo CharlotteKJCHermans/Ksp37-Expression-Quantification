@@ -15,6 +15,9 @@ Segments cells based on membrane stain and compares mean Ksp37 signal in each ce
 - Channel 1: Ksp37 staining
 - Other channels are ignored. Files without channels 0 and 1 are skipped.
 
+## Example data
+`Ksp37-Expression-Quantification-ExampleData/Input` contains two sample images. Run the macro with this folder as input and compare your results with `Ksp37-Expression-Quantification-ExampleData/Expected_Output`.
+
 ## How to run
 Open Fiji → Plugins → Macros → Run… → select the .ijm file → choose the input folder with the images → choose the output folder.
 The results table is saved in the output folder, and a subfolder `Segmentation` is created for the outline images.
